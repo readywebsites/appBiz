@@ -1,0 +1,53 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+myprojectenv/
+
+# Django
+staticfiles/
+media/
+*.log
+
+# Databases
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# Node
+node_modules/
+dist/
+.expo/
+.expo-shared/
+coverage/
+
+# Build artifacts
+android/.gradle/
+android/app/build/
+ios/Pods/
+
+# Secrets and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+.env
+.env.*
+!.env.example
